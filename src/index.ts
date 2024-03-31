@@ -5,5 +5,5 @@
  * @version 1.0.0
  */
 
-import SuperClient from "@/client/bot";
+import SuperClient from "./client/bot";
 new SuperClient().start();

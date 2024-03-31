@@ -16,6 +16,8 @@ export default class SuperClient extends SapphireClient {
         parse: ["users"],
         repliedUser: true,
       },
+      loadMessageCommandListeners: true,
+      loadApplicationCommandRegistriesStatusListeners: true,
     });
   }
 

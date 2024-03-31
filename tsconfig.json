@@ -1,11 +1,12 @@
 {
   "compilerOptions": {
-    "module": "CommonJS",
     "target": "ESNext",
+    "module": "CommonJS",
     "moduleResolution": "node",
     "strict": true,
     "esModuleInterop": true,
-    "preserveConstEnums": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
     "noImplicitAny": true,
     "strictNullChecks": true,
     "strictFunctionTypes": true,
@@ -13,16 +14,12 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noImplicitReturns": true,
-    "skipLibCheck": true,
-    "noErrorTruncation": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
     "outDir": "./dist",
     "rootDir": "./src",
-    "baseUrl": ".",
-    "stripInternal": true,
-    "paths": {
-      "@/*": ["src/*"]
-    }
+    "baseUrl": "./",
   },
   "exclude": ["node_modules"],
-  "include": ["src/**/*"]
+  "include": ["src/*"]
 }

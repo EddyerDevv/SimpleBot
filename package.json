@@ -2,11 +2,10 @@
   "name": "simplebot",
   "version": "1.0.0",
   "description": "A simple discord bot using sapphire framework",
-  "main": "src/index.ts",
-  "type": "module",
+  "main": "src/",
   "scripts": {
     "start:prod": "node dist/index.js",
-    "start:dev": "ts-node-dev src/index.ts",
+    "start:dev": "ts-node-dev --transpile-only src/index.ts",
     "start:normal": "ts-node src/index.ts"
   },
   "author": "EddyerDevv",
