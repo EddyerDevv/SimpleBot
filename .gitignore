@@ -1,0 +1,10 @@
+# innecesary
+node_modules
+.vscode
+
+# build
+dist
+
+# environments
+.env
+.env.local

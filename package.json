@@ -1,0 +1,23 @@
+{
+  "name": "simplebot",
+  "version": "1.0.0",
+  "description": "A simple discord bot using sapphire framework",
+  "main": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "start:prod": "node dist/index.js",
+    "start:dev": "ts-node-dev src/index.ts",
+    "start:normal": "ts-node src/index.ts"
+  },
+  "author": "EddyerDevv",
+  "license": "MIT",
+  "dependencies": {
+    "@sapphire/framework": "^5.0.10",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0"
+  }
+}
