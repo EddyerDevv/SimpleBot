@@ -4,6 +4,18 @@
 		"rootDir": "src",
 		"outDir": "dist",
 		"tsBuildInfoFile": "dist/.tsbuildinfo",
+		"strict": true,
+    "esModuleInterop": true,
+    "preserveConstEnums": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "skipLibCheck": true,
+    "noErrorTruncation": true,
 	},
 	"include": ["src"]
 }
